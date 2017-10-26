@@ -14,6 +14,7 @@
 		AAC9C2F41F971E1C00ACA937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC9C2F21F971E1C00ACA937 /* LaunchScreen.storyboard */; };
 		AAC9C2FF1F971E1C00ACA937 /* Calculator_EvoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC9C2FE1F971E1C00ACA937 /* Calculator_EvoTests.swift */; };
 		AAC9C30A1F971E1D00ACA937 /* Calculator_EvoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC9C3091F971E1D00ACA937 /* Calculator_EvoUITests.swift */; };
+		AAC9C3181F97581700ACA937 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC9C3171F97581700ACA937 /* DiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AAC9C3051F971E1D00ACA937 /* Calculator EvoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator EvoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC9C3091F971E1D00ACA937 /* Calculator_EvoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_EvoUITests.swift; sourceTree = "<group>"; };
 		AAC9C30B1F971E1D00ACA937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC9C3171F97581700ACA937 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AAC9C2E91F971E1C00ACA937 /* AppDelegate.swift */,
 				AAC9C2EB1F971E1C00ACA937 /* ViewController.swift */,
+				AAC9C3171F97581700ACA937 /* DiceViewController.swift */,
 				AAC9C2ED1F971E1C00ACA937 /* Main.storyboard */,
 				AAC9C2F01F971E1C00ACA937 /* Assets.xcassets */,
 				AAC9C2F21F971E1C00ACA937 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC9C2EC1F971E1C00ACA937 /* ViewController.swift in Sources */,
+				AAC9C3181F97581700ACA937 /* DiceViewController.swift in Sources */,
 				AAC9C2EA1F971E1C00ACA937 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
